@@ -1,3 +1,5 @@
+import groovy.io.FileType
+
 def call(Map params) {
   application = params.application
   runScan     = params.runScan
